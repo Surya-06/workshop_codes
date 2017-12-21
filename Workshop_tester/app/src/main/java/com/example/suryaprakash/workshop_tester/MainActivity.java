@@ -17,9 +17,4 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,R.string.toast_message,Toast.LENGTH_LONG).show();
         return;
     }
-
-    public void toaster_french ( View view ) {
-        Toast.makeText(this,"French Toast ", Toast.LENGTH_SHORT).show();
-        return;
-    }
 }
