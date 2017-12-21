@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Workshop_tester</string>
     <string name="toaster">Toast</string>
-    <string name="counter">Counter</string>
+    <string name="counter">Count</string>
     <string name="toast_message">Toaster message for the button !@!</string>
+    <string name="zero">0</string>
 </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suryaprakash.workshop_tester.MainActivity"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:background="@color/yellow">
+
+    <Button
+        android:id="@+id/toast_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toaster"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:onClick="toaster_french"
+        />
+    <TextView
+        android:layout_below="@+id/toast_button"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="250sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
