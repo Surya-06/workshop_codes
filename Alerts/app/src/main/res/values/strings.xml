@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Alerts</string>
+    <string name="open_date_picker_acitivity">Open Date Picker Acitivity</string>
+    <string name="open_date_picker">Open date picker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

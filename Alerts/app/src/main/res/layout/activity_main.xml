@@ -4,19 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.suryaprakash.alerts.MainActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Click Me to Exit"
-        android:layout_gravity="center"
         android:textSize="35sp"
         android:background="#000000"
         android:textColor="#ffffff"
         android:onClick="button_method"
         >
+    </Button>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="date_picker"
+        android:layout_marginTop="30dp"
+        android:text="@string/open_date_picker_acitivity"
+        >
     </Button>
 
 </LinearLayout>
