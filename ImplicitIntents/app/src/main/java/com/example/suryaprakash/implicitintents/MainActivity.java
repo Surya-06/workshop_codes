@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import static android.content.Intent.ACTION_VIEW;
 
@@ -32,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         url.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri page = Uri.parse(url_input.getText().toString());
-                Intent intent = new Intent( ACTION_VIEW , page );
+                Uri page = Uri.parse("http://"+url_input.getText().toString());
+                Intent intent = new Intent( Intent.ACTION_VIEW , page );
                 startActivity(intent);
             }
         });
