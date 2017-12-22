@@ -21,13 +21,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(MainActivity.this, " in onCreate method of the application ", Toast.LENGTH_SHORT ).show();
+
         next_screen_button = (Button) findViewById(R.id.next_activity_button);
         input_text = (EditText) findViewById(R.id.text_input);
 
         next_screen_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                /*
                 phone_number = (EditText) findViewById( R.id.phone_number );
 
                 String entered_number = phone_number.getText().toString();
@@ -52,10 +54,51 @@ public class MainActivity extends AppCompatActivity {
                     phone_number.setError("Invalid Phone Number Entered");
                     Toast.makeText(MainActivity.this, "Invalid Phone Number Entered", Toast.LENGTH_SHORT).show();
                 }
+                */
+
+                Intent intent = new Intent ( MainActivity.this, Activity2.class );
+                startActivity(intent);
 
 
             }
         });
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Toast.makeText(MainActivity.this, " in onStart method of the application ", Toast.LENGTH_SHORT ).show();
+        return;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast.makeText(MainActivity.this, " in onResume method of the application ", Toast.LENGTH_SHORT ).show();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Toast.makeText(MainActivity.this, " in onPause method of the application ", Toast.LENGTH_SHORT ).show();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Toast.makeText(MainActivity.this, " in onStop method of the application ", Toast.LENGTH_SHORT ).show();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast.makeText(MainActivity.this, " in onRestart method of the application ", Toast.LENGTH_SHORT ).show();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Toast.makeText(MainActivity.this, " in onDestroy method of the application ", Toast.LENGTH_SHORT ).show();
     }
 }
