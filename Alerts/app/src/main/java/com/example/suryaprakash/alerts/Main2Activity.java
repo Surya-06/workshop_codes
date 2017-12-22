@@ -15,7 +15,7 @@ public class Main2Activity extends AppCompatActivity {
 
     public void open_date ( View view ) {
             PickerFragment picker = new PickerFragment();
-
-            picker.show( getFragmentManager() , "Date Picker Fragment");
+            FragmentManager fm = getFragmentManager();
+            picker.show( fm , "Date Picker Fragment");
     }
 }

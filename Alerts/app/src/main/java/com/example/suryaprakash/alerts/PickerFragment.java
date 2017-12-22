@@ -22,7 +22,6 @@ public class PickerFragment extends DialogFragment implements DatePickerDialog.O
         int year = c.get(Calendar.YEAR);
         int month = c.get(Calendar.MONTH);
         int date = c.get(Calendar.DATE);
-
         return new DatePickerDialog( getActivity() , this, year , month , date );
     }
 
