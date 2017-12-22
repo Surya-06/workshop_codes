@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TwoActivities</string>
+    <string name="edit_text_hint">Enter some Text</string>
+    <string name="activity2_button_text">Click to launch next activity</string>
+    <string name="second_screen_message">You are in the second screen</string>
+    <string name="Enter_Name_String">Enter your Name</string>
+    <string name="blood_group_text">Enter your blood group</string>
+    <string name="mail_address">Enter your mail address</string>
+    <string name="phone_prompt">Enter the phone number</string>
+    <string name="password_prompt">Enter a good password</string>
 </resources>
