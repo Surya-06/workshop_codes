@@ -11,7 +11,7 @@ public class pager_adapter extends FragmentStatePagerAdapter {
 
     public pager_adapter(FragmentManager fm, int tabCount ) {
         super(fm);
-        tabCount = tabCount;
+        tab_count = tabCount;
     }
 
 
@@ -30,6 +30,6 @@ public class pager_adapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return tab_count;
     }
 }
