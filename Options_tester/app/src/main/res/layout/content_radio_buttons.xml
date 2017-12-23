@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.suryaprakash.options_tester.RadioButtons"
+    tools:showIn="@layout/activity_radio_buttons">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderBox"
+        android:textSize="40sp"
+        android:layout_gravity="center"/>
+    <RadioButton
+        android:id="@+id/instant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instant_one_day_delivery"
+        android:textSize="30sp"
+        android:checked="true"/>
+    <RadioButton
+        android:id="@+id/td"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two_day_free_delivery"
+        android:textSize="30sp"
+        />
+    <RadioButton
+        android:id="@+id/fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/free_delivery_later"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.suryaprakash.options_tester.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cart"
+        android:orderInCategory="20"
+        android:title="Cart"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher" />
+    <item
+        android:id="@+id/blah"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="store"/>
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="99"
+        app:showAsAction="ifRoom"
+        android:title="Contact us"/>
+</menu>

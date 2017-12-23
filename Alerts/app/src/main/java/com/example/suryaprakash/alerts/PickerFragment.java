@@ -27,7 +27,8 @@ public class PickerFragment extends DialogFragment implements DatePickerDialog.O
 
     @Override
     public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
-
+        Main2Activity activity = (Main2Activity) getActivity();
+        activity.useDate ( i , i1+1 , i2 );
     }
 
 }

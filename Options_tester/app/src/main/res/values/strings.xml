@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Options_tester</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_radio_buttons">RadioButtons</string>
+    <string name="two_day_free_delivery">Two Day Free Delivery</string>
+    <string name="instant_one_day_delivery">Instant One Day Delivery</string>
+    <string name="free_delivery_later">Free Delivery Later</string>
+</resources>
