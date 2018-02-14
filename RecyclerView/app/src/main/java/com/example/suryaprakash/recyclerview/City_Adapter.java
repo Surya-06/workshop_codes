@@ -28,6 +28,7 @@ public class City_Adapter extends RecyclerView.Adapter <City_Adapter.City_View_H
         LayoutInflater layout_inflater = LayoutInflater.from(context);
         View final_image = layout_inflater.inflate(R.layout.row_layout, parent , false );
         return new City_View_Holder( final_image );
+
     }
 
     @Override
